@@ -2,15 +2,13 @@
 
 # This imgae is created for the Python application, therefore it pull the Python depentencies for the Imgae.
 # The versione is the lastes for the major version 3.
-FROM python:latest AS PYTHON
+FROM python
 
 # Author of the Image.
-LABEL multi.authors="Nicola Ricciardi"
-multi.version="1.0"
-multi.description="Image attached use for Python APP with Terminal User Input."
+LABEL multi.authors="Nicola Ricciardi" multi.version="1.0" multi.description="Image attached use for Python APP with Terminal User Input."
 
-WORKDIR /Image_Direcotry
+WORKDIR /Source_Code
 
-COPY Python_App_Dockerized /Image_Direcotry
+COPY . /Image_Directory
 
-CMD ["PYTHON","main.py"]
+CMD ["python","main.py"]
