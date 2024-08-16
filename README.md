@@ -6,3 +6,4 @@ There are 2 folders for the progect:
 
 ### Source Code
 The structure of this directory is composed with the <ins>MAIN</ins> python file the is a simple call toother funtion nested in the same directory.
+![Alt text] (/Users/nicolaricciardi/Desktop/Screenshot 2024-08-16 at 16.10.15.png)
