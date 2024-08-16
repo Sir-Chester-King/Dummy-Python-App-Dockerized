@@ -1,6 +1,7 @@
 # This file is used for the function Play_Again()
-import New_Game
 import os
+
+import New_Game
 
 
 # This function just clear the console interpreter to a fancy view.

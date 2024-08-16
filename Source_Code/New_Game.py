@@ -1,7 +1,8 @@
 # This is the scope for the new game.
+import os
+
 import Check_Answer
 import Display_Score
-import os
 
 
 # This function just clear the console interpreter to a fancy view.
