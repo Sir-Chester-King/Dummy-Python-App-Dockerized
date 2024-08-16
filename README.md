@@ -1,4 +1,4 @@
-# Python_App_Dockerized
+# Python Application Using <ins>**Docker**</ins> Container
 ## Strucutre Of Project
 There are 2 folders for the progect:
 - **Source_Code**: this folder contain the main code of the project; written in Python.
