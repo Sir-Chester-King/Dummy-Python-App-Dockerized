@@ -13,6 +13,8 @@ WORKDIR /Docker_Directory
 # This command define to copy all the file located in the current directory (" . ") which the Dockerfile is created
 # In this case is in the Project APP Python; and copy all files into the specified directory (in thsi case copy all file in the sub-directory "./Image_DIrectory").
 # The copy will be placed in the /Docker_Directory/Image_Directory directory.
+
+# Equivalent command -> COPY Local_Path_Where_Dockerfile_Is_Placed /Docker_Directory/Image_Direcotry
 COPY . ./Image_Directory
 
 # This command define to run the "main.py" file located under the sub-directory definetd
