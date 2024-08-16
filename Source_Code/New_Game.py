@@ -33,6 +33,6 @@ def new_game(questions, possible_answer):
 
     questions_value = questions.values()
 
-    see_score = input("You wanna see the score?\nYes or No?--").lower()
+    see_score = input("You wanna see the score?\nYes or No?").lower()
     if see_score == "yes":
         Display_Score.display_score(questions_value, answer_given)
