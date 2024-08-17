@@ -11,9 +11,10 @@
 ---
 <a name="description"></a> 
 ## Description
-Thsi application is build as an example of using the [Docker](www.docker.com) technology to containeraize the application innit.
+This application is build as an example of using the [Docker](https://www.docker.com) technology to containeraize the application innit.
 
-## Strucutre Of Project
+
+## Main Applicationt
 There are 2 folders for the progect:
 - **Source_Code**: this folder contain the main code of the project; written in Python.
 - **Dockerfile**: this file is the <ins>Dockefile</ins> used to build the Image that will be used to create a new Container istance.
