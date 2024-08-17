@@ -2,7 +2,7 @@
 ## Table Of Content
 * [Scope of the application](https://github.com/Sir-Chester-King/Python_App_Dockerized#scope_app)<br>
 * [Main Application](https://github.com/Sir-Chester-King/Python_App_Dockerized#main_application)<br>
-** [Main.py](https://github.com/Sir-Chester-King/Python_App_Dockerized#main.py)<br>
+  - [Main.py](https://github.com/Sir-Chester-King/Python_App_Dockerized#main.py)<br>
 * [New_Game.py](https://github.com/Sir-Chester-King/Python_App_Dockerized#new_game.py)<br>
 * [Display_Score.py](https://github.com/Sir-Chester-King/Python_App_Dockerized#display_score.py)<br>
 * [Check_Answer.py](https://github.com/Sir-Chester-King/Python_App_Dockerized#check_answer.py)<br>
