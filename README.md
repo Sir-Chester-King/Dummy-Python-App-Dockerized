@@ -19,8 +19,8 @@ The application is write in [Python](https://www.python.org) and use the user in
 The application ask to an user to answer a simple question via terminal command (NO GUI), and it wrote in [Python](https://www.python.org).<br>
 Questions are:
 - <em>Who is the first American's President?</em>
-- <font face="Courier New, Courier, mono">When was the second world war?</font>
-- <font face="Courier New, Courier, mono">In which country was invented the pizza?</font>
+- <em>When was the second world war?</em>
+- <em>In which country was invented the pizza?</em>
 
 ### Source Code
 The structure of this directory is composed with the <ins>MAIN</ins> python file the is a simple call toother funtion nested in the same directory.
