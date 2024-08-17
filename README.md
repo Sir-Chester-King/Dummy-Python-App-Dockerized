@@ -13,12 +13,12 @@
 ## Description
 This application is a simple a quiz game, as education purpose to take conscious of how application is used within a container using the [Docker](https://www.docker.com) technology to containeraize the application innit.
 The application ask to an user to answer a simple question via terminal command (NO GUI).
-The application is write in [Python]([https://](https://www.python.org) and use the user input via command terminal to continue the usage.
+The application is write in [Python](https://www.python.org) and use the user input via command terminal to continue the usage.
 
 ## Main Applicationt
-The application ask to an user to answer a simple question via terminal command (NO GUI), and it wrote in [Python]([https://](https://www.python.org).
+The application ask to an user to answer a simple question via terminal command (NO GUI), and it wrote in [Python](https://www.python.org).
 Questions are:
-** TEST
+**TEST
 
 ### Source Code
 The structure of this directory is composed with the <ins>MAIN</ins> python file the is a simple call toother funtion nested in the same directory.
