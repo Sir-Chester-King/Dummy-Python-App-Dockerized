@@ -1,7 +1,7 @@
 # Python Application Using <ins>**Docker**</ins> Container
 ## Table Of Content
-[Main Application] (https://github.com/Sir-Chester-King/Python_App_Dockerized#main_application)
-[Dockerfile] (https://github.com/Sir-Chester-King/Python_App_Dockerized#dockerfile)
+[Main Application](https://github.com/Sir-Chester-King/Python_App_Dockerized#main_application)
+[Dockerfile](https://github.com/Sir-Chester-King/Python_App_Dockerized#dockerfile)
 ## Strucutre Of Project
 There are 2 folders for the progect:
 - **Source_Code**: this folder contain the main code of the project; written in Python.
