@@ -22,7 +22,13 @@ Questions available are:
 - <em>Who is the first American's President?</em>
 - <em>When was the second world war?</em>
 - <em>In which country was invented the pizza?</em>
-
+```
+questions = {
+    "Who is the first American's President?": "B",
+    "When was the second world war?": "A",
+    "In which country was invented the pizza?": "C"
+}
+```
 <a name="main.py"></a>
 ### Main.py
 This function is structured with the questions and the correct answers, store in the main body of application.<br>
