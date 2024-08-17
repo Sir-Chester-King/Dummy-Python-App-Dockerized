@@ -25,24 +25,5 @@ Questions available are:
 
 <a name="main.py"></a>
 ### Main.py
-The structure of this directory is composed with the <ins>MAIN</ins> python file the is a simple call toother funtion nested in the same directory.
-<br>
-As show below:
-<a name="main.py"></a>
-## MAIN:py
-<br>
-![alt text](Readme_Screen/Source_Code_Folder.png)
-
-<ol>
-  <li>
-    <a href="#link_to_heading">
-      <span class="title">Chapter or subsection title</span>
-      <br>
-      <span class="page">Page 1</span>
-    </a>
-
-    <ol role="list">
-      <!-- subsection items -->
-    </ol>
-  </li>
-</ol>
+This function is structured with the questions and the correct answers, store in the main body of application.<br>
+After that, it call another function called [New_game.py](#new_game.py)<br>
