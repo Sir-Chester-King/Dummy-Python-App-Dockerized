@@ -8,6 +8,7 @@
   - [Check_Answer.py](#check_answer.py)<br>
   - [Play_Again.py](#play_again.py)
 * [Dockerfile](#dockerfile)<br>
+
 ---
 <a name="description"></a> 
 ## Description
@@ -15,6 +16,7 @@ This application is a simple a quiz game, as education purpose to take conscious
 The application ask to an user to answer a simple question via terminal command (NO GUI).<br>
 The application is write in [Python](https://www.python.org) and use the user input via command terminal to continue the usage.
 
+---
 <a name="main_application"></a>
 ## Main Application
 The application ask to an user to answer a simple question via terminal command (NO GUI), and it wrote in [Python](https://www.python.org).<br>
@@ -31,7 +33,7 @@ As you can see, it was used a dictionary for the questions to use the pair <ins>
 <a name="main.py"></a>
 ### Main.py
 This function is structured with the questions and the correct answers, store in the main body of application.<br>
-After that, it call another function called [New_game.py](#new_game.py)<br>
+After that, it call another function called [New_Game.py](#new_game.py)<br>
 
 <a name="new_game.py"></a>
 ### New_Game.py
@@ -46,4 +48,47 @@ Thsi function use a nested <mark>FOR cycle</mark> to iterate first one, the ques
         for index in possible_answer[count_questions - 1]:
             print(index)
 ```
-The variable index "<strong>count_questions</strong>" start from one 'cause it was used to show the number of question showed to user (ex: question number °1).
+The variable index "<strong>count_questions</strong>" start from one 'cause it was used to show the number of question showed to user (ex: question number 1°).
+
+<a name="display_score.py></a>
+### Display_Score.py
+This function show the answer that user choose during the game, and all the correct answer for all the questions.
+It shiw the score percentage of result too.
+```
+print("Answer given: ", end="")
+for index in answer_given:
+    print(index, end="")
+
+print("\n")
+print("Correct answer: ", end="")
+for index in list_question_value:
+    print(index, end="")
+```
+```
+score = (correct_answer / len(questions_value)) * 100
+print("\n")
+print("Score: ", score)
+```
+
+<a name="check_answer.py"></a>
+### Check_Answer.py
+This function check only if the answer that user given during the game it was right.
+```
+def check_answer(questions_key, answer_input):
+    if questions_key == answer_input:
+        print("Correct Answer !!!\n")
+    else:
+        print("Wrong Answer !!!\n")
+```
+
+<a name="play_again.py"></a>
+### Play_Again.py
+This function call the [New_Game.py](#new_game.py) when the game reached the end, and the user wants to play again.
+```
+def play_again(questions, possible_answer):
+    New_Game.new_game(questions, possible_answer)
+```
+
+---
+<a name"dockerfile></a>
+## Dockerfile
