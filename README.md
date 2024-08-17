@@ -11,13 +11,14 @@
 ---
 <a name="description"></a> 
 ## Description
-This application is build as an example of using the [Docker](https://www.docker.com) technology to containeraize the application innit.
-
+This application is a simple a quiz game, as education purpose to take conscious of how application is used within a container using the [Docker](https://www.docker.com) technology to containeraize the application innit.
+The application ask to an user to answer a simple question via terminal command (NO GUI).
+The application is write in [Python]([https://](https://www.python.org) and use the user input via command terminal to continue the usage.
 
 ## Main Applicationt
-There are 2 folders for the progect:
-- **Source_Code**: this folder contain the main code of the project; written in Python.
-- **Dockerfile**: this file is the <ins>Dockefile</ins> used to build the Image that will be used to create a new Container istance.
+The application ask to an user to answer a simple question via terminal command (NO GUI), and it wrote in [Python]([https://](https://www.python.org).
+Questions are:
+** TEST
 
 ### Source Code
 The structure of this directory is composed with the <ins>MAIN</ins> python file the is a simple call toother funtion nested in the same directory.
