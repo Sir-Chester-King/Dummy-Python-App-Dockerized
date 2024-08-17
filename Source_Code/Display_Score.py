@@ -12,7 +12,8 @@ def display_score(questions_value, answer_given):
     correct_answer = 0
     list_question_value = []
 
-    # Convert a dictionary to a Tuple list
+    # Gather the value of the dictionary passed to the function, and append to a list, to simplify the check using
+    # only tuples.
     for value in questions_value:
         list_question_value.append(value)
 
