@@ -11,10 +11,11 @@ As show below:
 <br>
 ![alt text](Readme_Screen/Source_Code_Folder.png)
 
-<ol class="toc-list" role="list">
+<ol>
   <li>
     <a href="#link_to_heading">
       <span class="title">Chapter or subsection title</span>
+      <br>
       <span class="page">Page 1</span>
     </a>
 
