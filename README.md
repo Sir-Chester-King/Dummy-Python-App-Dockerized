@@ -1,13 +1,16 @@
 # Python Application Using <ins>**Docker**</ins> Container
 ## Table Of Contents
-* [Description](#description)<br>
-* [Main Application](#main_application)<br>
-  - [Main.py](#main.py)<br>
-  - [New_Game.py](#new_game.py)<br>
-  - [Display_Score.py](#display_score.py)<br>
-  - [Check_Answer.py](#check_answer.py)<br>
+* [Description](#description)
+* [Main Application](#main_application)
+  - [Main.py](#main.py)
+  - [New_Game.py](#new_game.py)
+  - [Display_Score.py](#display_score.py)
+  - [Check_Answer.py](#check_answer.py)
   - [Play_Again.py](#play_again.py)
-* [Dockerfile](#dockerfile)<br>
+* [Dockerfile](#dockerfile)
+  - [Command Image](#command)
+  - [Build Image](#build)
+  - [Run Container](#run)
 
 ---
 <a name="description"></a> 
