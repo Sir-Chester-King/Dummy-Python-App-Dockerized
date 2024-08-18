@@ -5,13 +5,13 @@
 FROM python:latest
 
 # Some Label for the Docker Image.
-LABEL multi.authors="Nicola Ricciardi" multi.version="1.0" multi.description="Image attached use for Python APP with Terminal User Input."
+LABEL multi.authors="Nicola Ricciardi" multi.version="1.0" multi.description="Docker container used to run a simple Python APP, with Terminal User Input."
 
 # This is the directory where all the following commands will be executed (COPY, RUN, CMD will be executed in the directory WORKDIR specified)
 WORKDIR /Docker_Directory
 
-# This command define to copy all the file located in the current directory (" . ") which the Dockerfile is created
-# In this case is in the Project APP Python; and copy all files into the specified directory (in thsi case copy all file in the sub-directory "./Image_DIrectory").
+# This command define to copy all the file located in the current directory (" . ") which in the Dockerfile is created
+# In this case is in the Project APP Python; and copy all files into the specified directory (copy all file in the sub-directory "./Image_DIrectory").
 # The copy will be placed in the /Docker_Directory/Image_Directory directory.
 
 # Equivalent command -> COPY Local_Path_Where_Dockerfile_Is_Placed /Docker_Directory/Image_Direcotry
