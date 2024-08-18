@@ -1,4 +1,4 @@
-# Python Application Using <ins>**Docker**</ins> Container
+# Dummy Python Application Using <ins>**Docker**</ins> Container
 ## Table Of Contents
 * [Description](#description)
 * [Main Application](#main_application)
@@ -53,7 +53,7 @@ Thsi function use a nested <mark>FOR cycle</mark> to iterate first one, the ques
 ```
 The variable index "<strong>count_questions</strong>" start from one 'cause it was used to show the number of question showed to user (ex: question number 1°).
 
-<a name="display_score.py></a>
+<a name="display_score.py"></a>
 ### Display_Score.py
 This function show the answer that user choose during the game, and all the correct answer for all the questions.
 It shiw the score percentage of result too.
