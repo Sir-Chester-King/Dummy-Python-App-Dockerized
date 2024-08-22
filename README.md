@@ -95,5 +95,47 @@ def play_again(questions, possible_answer):
 ---
 <a name="dockerfile"></a>
 ## Dockerfile
-This file contain all commands used to build the Image that Containers will use.
-The Image is a snapshot of the source code, and when it did build, the Image is in read-only mode, and you cannot change the code.
+This file contain all commands used to build the Image that Containers will use.<br>
+The Image is a snapshot of the source code, and when it did build, the Image is in read-only mode, and you cannot change the code. If you want to create a container based to the new image, you must re-build the image.
+
+<a name="command"></a>
+### Command Image
+The commands used to build the image that it'll be used to create the container that has the code, you must declare some parameters.<br>
+In this image it used the following commands:
+- FROM
+- LABEL
+- WORKDIR
+- COPY
+- CMD
+
+The <strong> FROM </strong> command it used to pull all dependenties based on the image that we pass as a parameter.<br>
+In this case, we defined an image for a Python appl, therefore with this command, we pull oll the dependenties from the <ins>official</ins> Python Imgae, stored in the [Docker Hub](https://hub.docker.com).
+```
+FROM python:latest
+```
+The word "<b> latest </b>" define to use the latest versione of the image we want to pull.<br>
+
+The <strong> WORKDIR </strong> command it used to define our work directory that all the <mark> next following command in the Dockerfile </strong> will be executed.<br>
+```
+# This is the directory where all the following commands will be executed (COPY, RUN, CMD will be executed in the directory WORKDIR specified)
+WORKDIR /Docker_Directory
+```
+
+
+The <strong> COPY </strong> command it used to say to Docker, that it must copy all the file stored in the same directory of Dockerfile, to some directory in the container (that we pecified)
+```
+# This command define to copy all the file located in the current directory (" . ") which in the Dockerfile is created
+# In this case is in the Project APP Python; and copy all files into the specified directory (copy all file in the sub-directory "./Image_DIrectory").
+# The copy will be placed in the /Docker_Directory/Image_Directory directory.
+
+# Equivalent command -> COPY Local_Path_Where_Dockerfile_Is_Placed /Docker_Directory/Image_Direcotry
+COPY . ./Image_Directory
+```
+
+The <strong> CMD </strong> command it used to say to Docker to run the command we specified in the dockerfile.
+```
+# This command define to run the "main.py" file located under the sub-directory definetd
+CMD ["python","Image_Directory/Source_Code/main.py"]
+```
+<a name="build"></a>
+### Build Image
