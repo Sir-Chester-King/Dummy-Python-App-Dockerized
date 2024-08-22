@@ -163,7 +163,8 @@ If you wanna see the list of container created, you must use the following comma
 ```
 docker ps
 ```
-if you wanna see the list of container that no longer used, for example, such as it was terminated 'cause the app in the container finished the work; you must use the following command:
+if you wanna see the list of container that no longer used, for example, such as it was terminated 'cause the app in the container finished the work.<br>
+You must use the following command:
 ```
 docker ps -a
 ```
