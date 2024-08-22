@@ -113,7 +113,7 @@ In this case, we defined an image for a Python appl, therefore with this command
 ```
 FROM python:latest
 ```
-The word "<b> latest </b>" define to use the latest versione of the image we want to pull.<br>
+The word "<b> latest </b>" define to use the latest versione of the image we want to pull.<br><br>
 
 The <strong> WORKDIR </strong> command it used to define our work directory that all the <mark> next following command in the Dockerfile </strong> will be executed.<br>
 ```
@@ -139,3 +139,5 @@ CMD ["python","Image_Directory/Source_Code/main.py"]
 ```
 <a name="build"></a>
 ### Build Image
+To build image, you must use the <strong> BUILD </strong> command, and pass where the dockerfile is stored, as a parameter.<br>
+It be the result.<br>
