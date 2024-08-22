@@ -156,7 +156,7 @@ To crate the container, you must use the following command:
 ```
 docker run --name Container_App_Python -it 296ac232d224
 ```
-If you see a stranger string <em>(296ac232d224)</em>, it's 'cause, it is the ID of Image builted previously.<br>
+If you see a stranger string <ins>(296ac232d224)</ins>, it's 'cause, it is the ID of Image builted previously.<br>
 When you create the container, the app start immediatly, 'cause, in the Dockerfile we declared a CMD command the run the "main.py" file.<br>
 ![Alt text](Readme_Screen/App%20Running.png)
 If you wanna see the list of container created, you must use the following command:
