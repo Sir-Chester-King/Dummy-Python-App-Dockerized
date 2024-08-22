@@ -141,3 +141,29 @@ CMD ["python","Image_Directory/Source_Code/main.py"]
 ### Build Image
 To build image, you must use the <strong> BUILD </strong> command, and pass where the dockerfile is stored, as a parameter.<br>
 It be the result.<br>
+![Alt text](Readme_Screen/Build%20Command.png)
+![Alt text](Readme_Screen/Execute%20Command%20Build.png)
+To view the image was builted, you can view with the following command:
+```
+docker image ls
+```
+![Alt text](Readme_Screen/List%20Images.png)
+
+<a name="run"></a>
+### Run The Container
+After you successfully build the Image, you can create and run the Container will contain the python app.<br>
+To crate the container, you must use the following command:
+```
+docker run --name Container_App_Python -it 296ac232d224
+```
+If you see a starnge string, it's 'cause, it is the ID of Image builted previously.<br>
+When you create the container, the app start immediatly, 'cause, in the Dockerfile you declared a CMD command the run the "main.py" file.<br>
+![Alt text](Readme_Screen/App%20Running.png)
+If you wanna see the list of container created, you must use the following command:
+```
+docker ps
+```
+if you wanna see the list of container that no longer used, for example, such as it was terminated 'cause the app in the container finished the work; you must use the following command:
+```
+docker ps -a
+```
