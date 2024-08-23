@@ -141,7 +141,9 @@ CMD ["python","Image_Directory/Source_Code/main.py"]
 ### Build Image
 To build image, you must use the <strong> BUILD </strong> command, and pass where the dockerfile is stored, as a parameter.<br>
 It be the result.<br>
-![Alt text](Readme_Screen/Build%20Command.png)
+```
+docker build .
+```
 ![Alt text](Readme_Screen/Execute%20Command%20Build.png)
 To view the image was builted, you can view with the following command:
 ```
