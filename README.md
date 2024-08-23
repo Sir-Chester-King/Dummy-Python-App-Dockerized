@@ -1,4 +1,4 @@
-# Python Application Using <ins>**Docker Technology**</ins>
+# Python Application Using <ins>**Docker Container Technology**</ins>
 ## Table Of Contents
 * [Description](#description)
 * [Main Application](#main_application)
