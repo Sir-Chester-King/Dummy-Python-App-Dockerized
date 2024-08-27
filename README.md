@@ -15,7 +15,7 @@
 ---
 <a name="description"></a> 
 ## Description
-This application is a simple a quiz game, as education purpose to take conscious of how application is used within a container using the [Docker](https://www.docker.com) technology to containeraize the application innit.<br>
+This application is a simple a quiz game, as education purpose to take conscious of how application is used within a container using the [Docker](https://www.docker.com) technology to containeraize the application it self.<br>
 The application ask to an user to answer a simple question via terminal command (NO GUI).<br>
 The application is write in [Python](https://www.python.org) and use the user input via command terminal to continue the usage.
 
